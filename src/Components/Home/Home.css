@@ -5,6 +5,7 @@
 
 body {
     overflow: hidden;
+    background-color: rgb(0, 37, 66);
     transition: all 0.1s;
 }
 
@@ -23,35 +24,28 @@ body {
     position: absolute;
     color: white;
     z-index: 2;
-    top: 13%;
+    top: 12%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 5px;
     font-size: 9px;
-}
-
-.blur {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    background-image: url(https://www.gifcen.com/wp-content/uploads/2022/04/wallpaper-gif-4.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    filter: blur(5px);
+    text-shadow: 5px 5px black;
 }
 
 #header {
     position: absolute;
     width: 100%;
-    height: 10vh;
+    height: 7vh;
     top: 0%;
-    background-color: rgb(195, 255, 0);
+    background-color: rgb(0, 37, 66);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    letter-spacing: 7px;
-    gap: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 10px;
+    font-size: 15px;
+    gap: 20px;
+    box-shadow: 3px 3px 25px 3px black;
 }
 
 #header h4 {
@@ -68,7 +62,7 @@ body {
 
 /* ------- cards css -------- */
 .main-player-container {
-    height: 75vh;
+    height: 70vh;
     width: 300px;
     position: relative;
     display: flex;
@@ -78,7 +72,7 @@ body {
     border-radius: 10%;
     border: 2px solid white;
     transition: 0.1s;
-    top: 5%;
+    top: 7%;
 }
 
 .main-player-container:hover {
@@ -127,6 +121,7 @@ body {
     background-position: -80px -40px;
     background-size: 140% 80%;
     bottom: 10%;
+    filter: contrast(1);
 }
 
 .player-container {
@@ -254,9 +249,12 @@ body {
 
 @media screen and (max-width:821px) {
 
+    .main-container p {
+        display: none;
+    }
+
     body {
-        overflow: visible;
-        background-color: rgb(0, 37, 66);
+        overflow-y: visible;
     }
 
     .main-player-container {
@@ -275,15 +273,80 @@ body {
     }
 }
 
-@media screen and (max-width:626px){
-    .main-container p {
-        letter-spacing: 3px;
-    }
-}
+@media screen and (max-width:444px) {
 
-@media screen and (max-width:536px){
-    .main-container p {
-        letter-spacing: 0px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    #header {
+        font-size: 9px;
+    }
+
+    .blur {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .main-player-container {
+        height: 55vh;
+        width: 250px;
+    }
+
+    #main-musicplayer-container {
+        height: 50vh;
+        width: 250px;
+        top: 20%;
+    }
+
+    #main-videoplayer-container {
+        top: 80%;
+    }
+
+    .sub-player-container {
+        height: 60vh;
+        width: 400px;
+    }
+
+    #sub-videoPlayer-container {
+        background-position: 25px 60px;
+        background-size: 80% 60%;
+        bottom: -30%;
+    }
+
+    #sub-musicPlayer-container {
+        background-position: -40px 20px;
+        background-size: 120% 80%;
+        bottom: 10%;
+    }
+
+    .player-container {
+        height: 30vh;
+        width: 200px;
+    }
+
+    #videoPic-Container {
+        bottom: 20%;
+    }
+
+    #musicPic-Container {
+        bottom: 30%;
+    }
+
+    .titles {
+        height: 50px;
+        width: 190px;
+    }
+
+    #musicPulse::after {
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 20px solid #fff;
+    }
+
+    #musicPulse {
+        top: -20%;
+    }
+
+    #videoPulse {
+        font-size: 20px;
+        top: 50%;
     }
 }
