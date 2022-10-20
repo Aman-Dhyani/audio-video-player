@@ -1,3 +1,7 @@
+* {
+    transition: 0.1s all;
+}
+
 #videoContainer {
     height: 100vh;
     width: 100%;
@@ -5,38 +9,91 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: black;
+}
+
+#blackHead {
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    top: 0%;
+}
+
+#searchBox {
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBars {
+    position: relative;
+    padding: 2%;
+}
+
+#search {
+    width: 260px;
 }
 
 #VidCont {
-    height: 87vh;
+    height: 77vh;
     width: 100%;
     position: absolute;
-    top: 1%;
+    bottom: 13%;
     border: 3px solid black;
     box-shadow: 3px 3px 25px 3px black;
 }
 
-.vidPageNavigater {
-    height: 50px;
-    width: 50%;
-    border: 2px solid black;
-    position: relative;
-    top: 44%;
-    background: white;
-    color: rgb(255, 0, 68);
-    cursor: pointer;
-    z-index: 5;
+
+#buttonBox2 {
+    height: 10vh;
+    width: 400px;
+    position: absolute;
+    bottom: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-shadow: 3px 3px 25px 3px black;
+    gap: 30px;
+}
+
+.vidPageNavigater {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid rgb(0, 106, 255);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPwYPdvyYIzVQ_qFmmCEc04vRHaM7c_ESsq9DPqFHaJTrfJzdGcrWdab6hb8JNSwPfQto&usqp=CAU);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#previousVid {
+    transform: rotate(180deg);
 }
 
 .vidPageNavigater:active {
-    color: rgb(0, 255, 89);
-    box-shadow: 0px 0px 25px 3px black;
-    height: 51px;
-    top: 45%;
+    border: 2px solid red;
+}
+
+#pauseButton {
+    height: 50px;
+    width: 50px;
+    border: 5px solid red;
+    border-radius: 50%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNdUEm7IdjF6fKVtDkncntZwOx88cYrNr5MMGSLDnytXmSlB0LXTdhV3i1yNZVWwBY2Pc&usqp=CAU);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#pauseButton:active{
+    border: 2px solid red;
 }
