@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/audio-video-player/static/css/main.0713d8e7.css",
-    "main.js": "/audio-video-player/static/js/main.ea2f290c.js",
+    "main.js": "/audio-video-player/static/js/main.56f66145.js",
     "static/js/787.5f512704.chunk.js": "/audio-video-player/static/js/787.5f512704.chunk.js",
     "static/media/Doja_Cat_-_Kiss_Me_More_(Official_Video)_ft._SZA.m4a": "/audio-video-player/static/media/Doja_Cat_-_Kiss_Me_More_(Official_Video)_ft._SZA.fc0eed56d3bc1ac6e84e.m4a",
     "static/media/I_Did_Something_Bad.m4a": "/audio-video-player/static/media/I_Did_Something_Bad.68d88da6280760e02be2.m4a",
@@ -18,11 +18,11 @@
     "static/media/chenimas.webp": "/audio-video-player/static/media/chenimas.8af32ea1c1387a736d38.webp",
     "index.html": "/audio-video-player/index.html",
     "main.0713d8e7.css.map": "/audio-video-player/static/css/main.0713d8e7.css.map",
-    "main.ea2f290c.js.map": "/audio-video-player/static/js/main.ea2f290c.js.map",
+    "main.56f66145.js.map": "/audio-video-player/static/js/main.56f66145.js.map",
     "787.5f512704.chunk.js.map": "/audio-video-player/static/js/787.5f512704.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0713d8e7.css",
-    "static/js/main.ea2f290c.js"
+    "static/js/main.56f66145.js"
   ]
 }
