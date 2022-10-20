@@ -1,0 +1,42 @@
+#videoContainer {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+#VidCont {
+    height: 87vh;
+    width: 100%;
+    position: absolute;
+    top: 1%;
+    border: 3px solid black;
+    box-shadow: 3px 3px 25px 3px black;
+}
+
+.vidPageNavigater {
+    height: 50px;
+    width: 50%;
+    border: 2px solid black;
+    position: relative;
+    top: 44%;
+    background: white;
+    color: rgb(255, 0, 68);
+    cursor: pointer;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 3px 3px 25px 3px black;
+}
+
+.vidPageNavigater:active {
+    color: rgb(0, 255, 89);
+    box-shadow: 0px 0px 25px 3px black;
+    height: 51px;
+    top: 45%;
+}
