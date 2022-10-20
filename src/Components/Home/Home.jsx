@@ -6,11 +6,9 @@ import './Home.css'
 export default function Home() {
     return (
         <>
+            <div id='header'><h4>Welcome To My Mideo</h4></div>
             <div className='main-container'>
                 <p>a react-applicstion where you can play music and youtube video</p>
-                <div id='header' >
-                    <h4>Welcome To My Mideo</h4>
-                </div>
                 <VideoPlayer />
                 <MusicPllayer />
             </div>
