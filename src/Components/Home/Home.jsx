@@ -7,6 +7,7 @@ export default function Home() {
     return (
         <>
             <div className='main-container'>
+                <p>a react-applicstion where you can play music and youtube video</p>
                 <div className='blur' ></div>
                 <div id='header' >
                     <a href='https://github.com/Aman-Dhyani'> <img id='refImage' src="https://avatars.githubusercontent.com/u/102688642?v=4" alt="error" /></a>
