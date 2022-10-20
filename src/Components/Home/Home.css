@@ -48,18 +48,6 @@ body {
     box-shadow: 3px 3px 25px 3px black;
 }
 
-#header h4 {
-    position: relative;
-}
-
-#refImage {
-    height: 30px;
-    width: 30px;
-    position: relative;
-    border-radius: 50%;
-    top: 3px;
-}
-
 /* ------- cards css -------- */
 .main-player-container {
     height: 70vh;
