@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/audio-video-player/static/css/main.0713d8e7.css",
+    "main.js": "/audio-video-player/static/js/main.ea2f290c.js",
+    "static/js/787.5f512704.chunk.js": "/audio-video-player/static/js/787.5f512704.chunk.js",
+    "static/media/Doja_Cat_-_Kiss_Me_More_(Official_Video)_ft._SZA.m4a": "/audio-video-player/static/media/Doja_Cat_-_Kiss_Me_More_(Official_Video)_ft._SZA.fc0eed56d3bc1ac6e84e.m4a",
+    "static/media/I_Did_Something_Bad.m4a": "/audio-video-player/static/media/I_Did_Something_Bad.68d88da6280760e02be2.m4a",
+    "static/media/The_Weeknd_-_Blinding_Lights_(Official_Video).m4a": "/audio-video-player/static/media/The_Weeknd_-_Blinding_Lights_(Official_Video).24601217a6411a15cc29.m4a",
+    "static/media/Flo_Rida_-_Wild_Ones_ft._Sia_[Official_Video](128kbps).m4a": "/audio-video-player/static/media/Flo_Rida_-_Wild_Ones_ft._Sia_[Official_Video](128kbps).999a2eb381f8ad62518c.m4a",
+    "static/media/The_Weeknd_-_Out_of_Time_(Official_Video)(128kbps).m4a": "/audio-video-player/static/media/The_Weeknd_-_Out_of_Time_(Official_Video)(128kbps).a5b6077c8b78783871f1.m4a",
+    "static/media/Dua_Lipa_-_Levitating_Featuring_DaBaby_(Official_Music_Video).m4a": "/audio-video-player/static/media/Dua_Lipa_-_Levitating_Featuring_DaBaby_(Official_Music_Video).f052cf05107607216165.m4a",
+    "static/media/Ruth_B._-_Dandelions_(Lyrics)(128kbps).m4a": "/audio-video-player/static/media/Ruth_B._-_Dandelions_(Lyrics)(128kbps).6bdba0c3b9a89c556b08.m4a",
+    "static/media/Dua_Lipa_-_Cool_(Official_Lyrics_Video)(128k).m4a": "/audio-video-player/static/media/Dua_Lipa_-_Cool_(Official_Lyrics_Video)(128k).c6ad19b0072555a7943f.m4a",
+    "static/media/Niall_Horan_-_Nice_To_Meet_Ya_(Official)(128k).m4a": "/audio-video-player/static/media/Niall_Horan_-_Nice_To_Meet_Ya_(Official)(128k).90c78dccd4dd9c52e5e5.m4a",
+    "static/media/Taylor_Swift_-_Cruel_Summer_(Official_Audio)(128kbps).m4a": "/audio-video-player/static/media/Taylor_Swift_-_Cruel_Summer_(Official_Audio)(128kbps).1726255cc7b0b8b3bf7e.m4a",
+    "static/media/headphone.png": "/audio-video-player/static/media/headphone.3887bada19cd37a2c571.png",
+    "static/media/image.png": "/audio-video-player/static/media/image.f44ba6edd8f205738cd7.png",
+    "static/media/chenimas.webp": "/audio-video-player/static/media/chenimas.8af32ea1c1387a736d38.webp",
+    "index.html": "/audio-video-player/index.html",
+    "main.0713d8e7.css.map": "/audio-video-player/static/css/main.0713d8e7.css.map",
+    "main.ea2f290c.js.map": "/audio-video-player/static/js/main.ea2f290c.js.map",
+    "787.5f512704.chunk.js.map": "/audio-video-player/static/js/787.5f512704.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0713d8e7.css",
+    "static/js/main.ea2f290c.js"
+  ]
+}
